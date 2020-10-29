@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<title>Form Registrasi Siswa</title>
+	<style>
+		table {border: 0; color: black}
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset style="background-color:yellow">
+			<legend><h1>FORM PENDAFTARAN</h1></legend>
+			<table>
+				<tr>
+					<td><label>Nama Lengkap</label></td>
+					<td>:</td>
+					<td><input type="text" name="Nama" value=""></td>
+				</tr>
+				<tr>
+					<td>Tempat Lahir</td>
+					<td>:</td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td>Tanggal Lahir</td>
+					<td>:</td>
+					<td><input type="Date"></td>
+				</tr>
+				<tr>
+					<td>Jenis Kelamin</td>
+					<td>:</td>
+					<td>
+						<input type="radio" name="JK" value="L" checked="" />Laki-Laki
+						<input type="radio" name="JK" value="P" />Perempuan
+					</td>
+				</tr>
+				<tr>
+					<td>Alamat</td>
+					<td>:</td>
+					<td>
+						<textarea cols="30" rows="3" ></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>Agama</td>
+					<td>:</td>
+					<td>
+						<select>
+							<option>--pilih agama--</option>
+							<option>Islam</option>
+							<option>Katolik</option>
+							<option>Protestan</option>
+							<option>Hindu</option>
+							<option>Budha</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>E-mail</td>
+					<td>:</td>
+					<td><input type="email"></td>
+				</tr>
+				<tr>
+					<td>No Hp</td>
+					<td>:</td>
+					<td><input type="number"></td>
+				</tr>
+				<tr>
+					<td>Kota</td>
+					<td>:</td>
+					<td>
+						<select>
+							<option>--Pilih Kota--</option>
+							<option>Bogor</option>
+							<option>Jakarta</option>
+							<option>Bekasi</option>
+							<option>Tangerang</option>
+							<option>Depok</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td>
+						<input type="submit" name="submit" value="simpan"/>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>
